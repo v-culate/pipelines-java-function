@@ -49,4 +49,4 @@ steps:
     azureSubscription: 'storageAccServiceCon'
     appType: 'functionApp'
     appName: '$(appName)'
-    package: '$(build.artifactstagingdirectory)/$(appName)'
+    package: '$(build.artifactstagingdirectory)'
